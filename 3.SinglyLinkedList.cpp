@@ -9,6 +9,7 @@ public:
     node(int n)
     {
         this->data = n;
+        this->link=NULL;
     }
 };
 class linkedlist
